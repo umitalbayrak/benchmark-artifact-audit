@@ -3,8 +3,10 @@
 Code, audit outputs and model predictions for the paper
 
 > **Are We Benchmarking Models or Dataset Artifacts? A Reproducible Audit Framework for Sentiment Analysis Benchmarks — Evidence from Turkish Low-Resource Benchmarks with English External Validation**
-> Ümit Albayrak ({{YEAR}}). {{JOURNAL / preprint link}}
-> Department of Computer Technologies, Ilgin Vocational School, Selcuk University, Konya 42600, Turkey
+>
+> Ümit Albayrak — Department of Computer Technologies, Ilgin Vocational School, Selcuk University, Konya 42600, Turkey
+>
+> Manuscript under review. Citation details will be added on publication.
 
 The framework audits a sentiment benchmark for five kinds of defects and measures how each one changes reported scores and model rankings:
 
