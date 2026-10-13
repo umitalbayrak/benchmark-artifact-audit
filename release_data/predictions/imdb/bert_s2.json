@@ -1,0 +1,1 @@
+{"model": "bert", "seed": 2, "maxlen": 256, "epochs": 1, "dirty_acc_quick": 0.92052, "minutes": 8.4}

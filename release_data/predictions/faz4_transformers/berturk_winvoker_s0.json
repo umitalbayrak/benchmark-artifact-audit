@@ -1,0 +1,1 @@
+{"model": "berturk", "dataset": "winvoker", "seed": 0, "n_train": 100000, "epochs": 1, "dirty_acc_quick": 0.9685922716962625, "minutes": 12.6}

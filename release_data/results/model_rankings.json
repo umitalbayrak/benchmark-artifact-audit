@@ -1,0 +1,70 @@
+{
+ "TMPR": {
+  "dirty": [
+   "berturk",
+   "tfidf",
+   "xlmr"
+  ],
+  "clean": [
+   "berturk",
+   "tfidf",
+   "xlmr"
+  ],
+  "gold": [
+   "xlmr",
+   "berturk",
+   "tfidf"
+  ]
+ },
+ "TMRD": {
+  "dirty": [
+   "berturk",
+   "tfidf",
+   "xlmr"
+  ],
+  "clean": [
+   "berturk",
+   "tfidf",
+   "xlmr"
+  ],
+  "gold": [
+   "berturk",
+   "tfidf",
+   "xlmr"
+  ]
+ },
+ "TRSAv1": {
+  "dirty": [
+   "berturk",
+   "xlmr",
+   "tfidf"
+  ],
+  "clean": [
+   "berturk",
+   "xlmr",
+   "tfidf"
+  ],
+  "gold": [
+   "berturk",
+   "xlmr",
+   "tfidf"
+  ]
+ },
+ "winvoker": {
+  "dirty": [
+   "berturk",
+   "xlmr",
+   "tfidf"
+  ],
+  "clean": [
+   "berturk",
+   "xlmr",
+   "tfidf"
+  ],
+  "gold": [
+   "berturk",
+   "xlmr",
+   "tfidf"
+  ]
+ }
+}

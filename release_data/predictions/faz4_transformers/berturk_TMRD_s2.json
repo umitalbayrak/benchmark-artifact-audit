@@ -1,0 +1,1 @@
+{"model": "berturk", "dataset": "TMRD", "seed": 2, "n_train": 8368, "epochs": 3, "dirty_acc_quick": 0.9369024856596558, "minutes": 3.0}

@@ -1,0 +1,60 @@
+{
+ "winvoker_model": {
+  "neutral": {
+   "n": 30,
+   "recall": 0.0,
+   "pred_dist": {
+    "negative": 18,
+    "positive": 12
+   }
+  },
+  "positive": {
+   "n": 122,
+   "recall": 1.0,
+   "pred_dist": {
+    "positive": 122
+   }
+  },
+  "negative": {
+   "n": 69,
+   "recall": 0.739,
+   "pred_dist": {
+    "negative": 51,
+    "positive": 16,
+    "neutral": 2
+   }
+  },
+  "acc_all_gold": 0.783
+ },
+ "trsav1_model": {
+  "neutral": {
+   "n": 30,
+   "recall": 0.767,
+   "pred_dist": {
+    "neutral": 23,
+    "positive": 4,
+    "negative": 3
+   }
+  },
+  "positive": {
+   "n": 122,
+   "recall": 0.721,
+   "pred_dist": {
+    "positive": 88,
+    "neutral": 33,
+    "negative": 1
+   }
+  },
+  "negative": {
+   "n": 69,
+   "recall": 0.638,
+   "pred_dist": {
+    "negative": 44,
+    "neutral": 24,
+    "positive": 1
+   }
+  },
+  "acc_all_gold": 0.701
+ },
+ "n_gold": 221
+}

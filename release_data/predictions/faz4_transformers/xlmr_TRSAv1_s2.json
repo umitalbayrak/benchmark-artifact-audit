@@ -1,0 +1,1 @@
+{"model": "xlmr", "dataset": "TRSAv1", "seed": 2, "n_train": 119648, "epochs": 1, "dirty_acc_quick": 0.8256886868146563, "minutes": 18.1}

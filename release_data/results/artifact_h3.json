@@ -1,0 +1,16 @@
+{
+ "A_source_majority_label_test_acc": 0.8844889206576125,
+ "A_neutral_from_wiki_or_random_pct": 100.0,
+ "B_texttype_test_acc": 0.9969978556111508,
+ "C_in_dist_macroF1": 0.9306790609520664,
+ "C_in_dist_neutral_recall": 0.9968991340978235,
+ "C_trsav1_neutral_recall_winvokermodel": 0.0042,
+ "C_trsav1_pred_dist_for_neutral_reviews": {
+  "negative": 0.2904,
+  "neutral": 0.0042,
+  "positive": 0.7054
+ },
+ "C_trsav1_macroF1_winvokermodel": 0.4727946864436225,
+ "C_ref_trsav1_neutral_recall_inDomain": 0.7279,
+ "C_ref_trsav1_macroF1_inDomain": 0.8013785161918324
+}

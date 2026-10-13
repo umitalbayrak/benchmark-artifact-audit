@@ -1,0 +1,58 @@
+{
+ "winvoker": {
+  "unique_texts": 447120,
+  "pairs_cos>=0.90": 160379,
+  "pct_texts_with_neighbor@0.9": 11.623,
+  "label_conflict_pairs@0.9": 3069,
+  "test_neighbor_in_train_pct@0.9": 10.986,
+  "pct_texts_with_neighbor@0.95": 3.516,
+  "label_conflict_pairs@0.95": 240,
+  "test_neighbor_in_train_pct@0.95": 3.049,
+  "pct_texts_with_neighbor@0.98": 1.097,
+  "label_conflict_pairs@0.98": 20,
+  "test_neighbor_in_train_pct@0.98": 0.871
+ },
+ "TRSAv1": {
+  "unique_texts": 119379,
+  "pairs_cos>=0.90": 93200,
+  "pct_texts_with_neighbor@0.9": 24.163,
+  "label_conflict_pairs@0.9": 30858,
+  "pct_texts_with_neighbor@0.95": 5.831,
+  "label_conflict_pairs@0.95": 4799,
+  "pct_texts_with_neighbor@0.98": 1.179,
+  "label_conflict_pairs@0.98": 505
+ },
+ "TMRD": {
+  "unique_texts": 10170,
+  "pairs_cos>=0.90": 1286,
+  "pct_texts_with_neighbor@0.9": 7.522,
+  "label_conflict_pairs@0.9": 85,
+  "pct_texts_with_neighbor@0.95": 0.501,
+  "label_conflict_pairs@0.95": 2,
+  "pct_texts_with_neighbor@0.98": 0.039,
+  "label_conflict_pairs@0.98": 0
+ },
+ "TMPR": {
+  "unique_texts": 5593,
+  "pairs_cos>=0.90": 35,
+  "pct_texts_with_neighbor@0.9": 0.983,
+  "label_conflict_pairs@0.9": 8,
+  "pct_texts_with_neighbor@0.95": 0.0,
+  "label_conflict_pairs@0.95": 0,
+  "pct_texts_with_neighbor@0.98": 0.0,
+  "label_conflict_pairs@0.98": 0
+ },
+ "IMDB": {
+  "unique_texts": 49576,
+  "pairs_cos>=0.90": 53,
+  "pct_texts_with_neighbor@0.9": 0.182,
+  "label_conflict_pairs@0.9": 1,
+  "test_neighbor_in_train_pct@0.9": 0.032,
+  "pct_texts_with_neighbor@0.95": 0.115,
+  "label_conflict_pairs@0.95": 0,
+  "test_neighbor_in_train_pct@0.95": 0.012,
+  "pct_texts_with_neighbor@0.98": 0.101,
+  "label_conflict_pairs@0.98": 0,
+  "test_neighbor_in_train_pct@0.98": 0.004
+ }
+}

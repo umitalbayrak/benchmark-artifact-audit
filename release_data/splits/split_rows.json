@@ -1,0 +1,42 @@
+{
+ "TMPR_s0": {
+  "rows": 5400,
+  "test": 1080
+ },
+ "TMPR_s1": {
+  "rows": 5400,
+  "test": 1080
+ },
+ "TMPR_s2": {
+  "rows": 5400,
+  "test": 1080
+ },
+ "TMRD_s0": {
+  "rows": 10460,
+  "test": 2092
+ },
+ "TMRD_s1": {
+  "rows": 10460,
+  "test": 2092
+ },
+ "TMRD_s2": {
+  "rows": 10460,
+  "test": 2092
+ },
+ "TRSAv1_s0": {
+  "rows": 149560,
+  "test": 29912
+ },
+ "TRSAv1_s1": {
+  "rows": 149560,
+  "test": 29912
+ },
+ "TRSAv1_s2": {
+  "rows": 149560,
+  "test": 29912
+ },
+ "winvoker_s0": {
+  "rows": 489370,
+  "test": 48937
+ }
+}

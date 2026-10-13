@@ -1,0 +1,1 @@
+{"model": "berturk", "dataset": "TRSAv1", "seed": 2, "n_train": 119648, "epochs": 1, "dirty_acc_quick": 0.8347485958812517, "minutes": 13.4}

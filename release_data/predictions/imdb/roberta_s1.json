@@ -1,0 +1,1 @@
+{"model": "roberta", "seed": 1, "maxlen": 256, "epochs": 1, "dirty_acc_quick": 0.93756, "minutes": 8.3}

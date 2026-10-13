@@ -1,0 +1,11 @@
+# CPU analysis (versions used for the paper; Python 3.13)
+numpy==2.5.3
+pandas==3.0.5
+pyarrow==25.0.1
+scipy==1.18.1
+scikit-learn==1.9.1
+cleanlab==2.9.0
+datasketch==2.0.0
+openpyxl==3.1.5
+# GPU notebooks (installed inside Colab by the notebooks themselves):
+# transformers, accelerate, bitsandbytes, datasets, sentence-transformers, torch

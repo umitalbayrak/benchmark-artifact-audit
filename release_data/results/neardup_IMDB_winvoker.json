@@ -1,0 +1,19 @@
+{
+ "IMDB": {
+  "unique_texts": 49576,
+  "pairs_found": 39,
+  "pct_texts_with_neardup@0.7": 0.15128287881232855,
+  "label_conflict_pairs@0.7": 0,
+  "test_texts_neardup_in_train@0.7": 5,
+  "test_neardup_leak_pct@0.7": 0.020263424518743668,
+  "pct_texts_with_neardup@0.8": 0.1411973535581733,
+  "label_conflict_pairs@0.8": 0,
+  "test_texts_neardup_in_train@0.8": 2,
+  "test_neardup_leak_pct@0.8": 0.008105369807497468,
+  "pct_texts_with_neardup@0.9": 0.11699209294820075,
+  "label_conflict_pairs@0.9": 0,
+  "test_texts_neardup_in_train@0.9": 1,
+  "test_neardup_leak_pct@0.9": 0.004052684903748734,
+  "seconds": 110.4
+ }
+}

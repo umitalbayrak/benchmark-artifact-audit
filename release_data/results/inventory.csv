@@ -1,0 +1,5 @@
+dataset,rows,labels,splits,sources,unmapped_labels,empty_after_norm,median_words,pct_le3_words
+winvoker,489644,"{""positive"": 262166, ""neutral"": 170917, ""negative"": 56561}","{""train"": 440679, ""test"": 48965}","{""urun_yorumlari"": 234183, ""wiki"": 170413, ""HUMIR"": 65000, ""tweet-pn"": 11055, ""magaza_yorumlari"": 8489, ""random"": 504}",0,39,11.0,4.1
+TRSAv1,150000,"{""positive"": 50000, ""negative"": 50000, ""neutral"": 50000}","{""none"": 150000}","{""e-commerce"": 150000}",0,60,9.0,12.3
+TMRD,10660,"{""positive"": 5330, ""negative"": 5330}","{""none"": 10660}","{""movie"": 10660}",0,4,19.0,2.7
+TMPR,5600,"{""positive"": 2800, ""negative"": 2800}","{""none"": 5600}","{""books"": 1400, ""dvd"": 1400, ""electronics"": 1400, ""kitchen"": 1400}",0,0,28.0,0.1

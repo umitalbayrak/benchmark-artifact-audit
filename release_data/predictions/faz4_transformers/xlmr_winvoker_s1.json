@@ -1,0 +1,1 @@
+{"model": "xlmr", "dataset": "winvoker", "seed": 1, "n_train": 100000, "epochs": 1, "dirty_acc_quick": 0.9613176124404847, "minutes": 15.9}

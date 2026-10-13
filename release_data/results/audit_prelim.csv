@@ -1,0 +1,5 @@
+dataset,text_redundant_pct,k_norm_redundant_pct,conflict_texts,conflict_rows,conflict_rows_pct,split_test_rows,split_leaked_rows,split_leaked_pct,cv_leaked_pct
+winvoker,0.16,0.95,130,669,0.14,48961.0,716.0,1.46,1.31
+TRSAv1,6.01,8.18,1049,9592,6.4,,,,9.69
+TMRD,0.21,0.6,0,0,0.0,,,,0.78
+TMPR,0.0,0.0,0,0,0.0,,,,0.0

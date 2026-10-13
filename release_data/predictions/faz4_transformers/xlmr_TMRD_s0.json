@@ -1,0 +1,1 @@
+{"model": "xlmr", "dataset": "TMRD", "seed": 0, "n_train": 8368, "epochs": 3, "dirty_acc_quick": 0.9216061185468452, "minutes": 3.7}

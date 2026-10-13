@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "If you use this code or data, please cite the paper below."
+title: "Benchmark Artifact Audit: code and data"
+authors:
+  - family-names: "Albayrak"
+    given-names: "Ümit"
+    affiliation: "Department of Computer Technologies, Ilgin Vocational School, Selcuk University, Konya 42600, Turkey"
+    orcid: "https://orcid.org/0000-0002-7942-7191"
+version: "1.0.0"
+date-released: "{{YYYY-MM-DD}}"
+license: MIT
+doi: "{{ZENODO_DOI}}"
+preferred-citation:
+  type: article
+  title: "Are We Benchmarking Models or Dataset Artifacts? A Reproducible Audit Framework for Sentiment Analysis Benchmarks — Evidence from Turkish Low-Resource Benchmarks with English External Validation"
+  authors:
+    - family-names: "Albayrak"
+      given-names: "Ümit"
+  journal: "{{JOURNAL}}"
+  year: "{{YEAR}}"

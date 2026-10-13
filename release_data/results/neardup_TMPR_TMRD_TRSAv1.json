@@ -1,0 +1,35 @@
+{
+ "TMPR": {
+  "unique_texts": 5593,
+  "pairs_found": 1,
+  "pct_texts_with_neardup@0.7": 0.03575898444484177,
+  "label_conflict_pairs@0.7": 0,
+  "pct_texts_with_neardup@0.8": 0.0,
+  "label_conflict_pairs@0.8": 0,
+  "pct_texts_with_neardup@0.9": 0.0,
+  "label_conflict_pairs@0.9": 0,
+  "seconds": 2.8
+ },
+ "TMRD": {
+  "unique_texts": 10170,
+  "pairs_found": 2,
+  "pct_texts_with_neardup@0.7": 0.03933136676499508,
+  "label_conflict_pairs@0.7": 0,
+  "pct_texts_with_neardup@0.8": 0.01966568338249754,
+  "label_conflict_pairs@0.8": 0,
+  "pct_texts_with_neardup@0.9": 0.01966568338249754,
+  "label_conflict_pairs@0.9": 0,
+  "seconds": 3.2
+ },
+ "TRSAv1": {
+  "unique_texts": 119379,
+  "pairs_found": 870,
+  "pct_texts_with_neardup@0.7": 1.0462476649997068,
+  "label_conflict_pairs@0.7": 290,
+  "pct_texts_with_neardup@0.8": 0.4104574506403974,
+  "label_conflict_pairs@0.8": 96,
+  "pct_texts_with_neardup@0.9": 0.08209149012807948,
+  "label_conflict_pairs@0.9": 16,
+  "seconds": 35.9
+ }
+}

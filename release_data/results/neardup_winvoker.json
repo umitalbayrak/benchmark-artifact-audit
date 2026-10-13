@@ -1,0 +1,19 @@
+{
+ "winvoker": {
+  "unique_texts": 447120,
+  "pairs_found": 6015,
+  "pct_texts_with_neardup@0.7": 1.3978350331007336,
+  "label_conflict_pairs@0.7": 21,
+  "test_texts_neardup_in_train@0.7": 537,
+  "test_neardup_leak_pct@0.7": 1.2057119762899098,
+  "pct_texts_with_neardup@0.8": 0.7159151905528717,
+  "label_conflict_pairs@0.8": 10,
+  "test_texts_neardup_in_train@0.8": 270,
+  "test_neardup_leak_pct@0.8": 0.6062238986932507,
+  "pct_texts_with_neardup@0.9": 0.18317230273752014,
+  "label_conflict_pairs@0.9": 4,
+  "test_texts_neardup_in_train@0.9": 76,
+  "test_neardup_leak_pct@0.9": 0.17064080111365576,
+  "seconds": 158.9
+ }
+}

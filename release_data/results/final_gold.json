@@ -1,0 +1,142 @@
+{
+ "adjudicated_items": 324,
+ "adj_equals_one_annotator": 261,
+ "adj_label_dist": {
+  "positive": 111,
+  "negative": 86,
+  "neutral": 78,
+  "offtopic": 45,
+  "ambiguous": 4
+ },
+ "prevalence": {
+  "TRSAv1": {
+   "A_counts": {
+    "error": 55,
+    "correct": 42,
+    "unratable": 3
+   },
+   "A_n_rated": 97,
+   "A_error_rate": 0.567,
+   "R_counts": {
+    "correct": 101,
+    "error": 12,
+    "unratable": 7
+   },
+   "R_n_rated": 113,
+   "R_error_rate": 0.1062,
+   "weighted_error_rate": 0.1646,
+   "ci95": [
+    0.1158,
+    0.2175
+   ],
+   "error_types_AR": {
+    "neutral->positive": 29,
+    "neutral->negative": 14,
+    "positive->neutral": 9,
+    "negative->positive": 8,
+    "negative->neutral": 5,
+    "positive->negative": 2
+   },
+   "weighted_unratable_share": 0.0547
+  },
+  "winvoker": {
+   "A_counts": {
+    "error": 46,
+    "correct": 37,
+    "unratable": 17
+   },
+   "A_n_rated": 83,
+   "A_error_rate": 0.5542,
+   "R_counts": {
+    "correct": 106,
+    "unratable": 10,
+    "error": 4
+   },
+   "R_n_rated": 110,
+   "R_error_rate": 0.0364,
+   "weighted_error_rate": 0.0462,
+   "ci95": [
+    0.0179,
+    0.0831
+   ],
+   "error_types_AR": {
+    "negative->positive": 22,
+    "negative->neutral": 11,
+    "positive->neutral": 9,
+    "positive->negative": 8
+   },
+   "weighted_unratable_share": 0.085
+  },
+  "TMRD": {
+   "A_counts": {
+    "error": 28,
+    "neutral_in_binary": 22,
+    "correct": 19,
+    "unratable": 11
+   },
+   "A_n_rated": 47,
+   "A_error_rate": 0.5957,
+   "R_counts": {
+    "correct": 107,
+    "unratable": 9,
+    "neutral_in_binary": 4
+   },
+   "R_n_rated": 107,
+   "R_error_rate": 0.0,
+   "weighted_error_rate": 0.0148,
+   "ci95": [
+    0.0111,
+    0.0185
+   ],
+   "error_types_AR": {
+    "negative->positive": 20,
+    "positive->negative": 8
+   },
+   "weighted_unratable_share": 0.1159
+  },
+  "TMPR": {
+   "A_counts": {
+    "correct": 39,
+    "error": 30,
+    "neutral_in_binary": 8,
+    "unratable": 3
+   },
+   "A_n_rated": 69,
+   "A_error_rate": 0.4348,
+   "R_counts": {
+    "correct": 81,
+    "error": 17,
+    "neutral_in_binary": 13,
+    "unratable": 9
+   },
+   "R_n_rated": 98,
+   "R_error_rate": 0.1735,
+   "weighted_error_rate": 0.1986,
+   "ci95": [
+    0.1341,
+    0.2688
+   ],
+   "error_types_AR": {
+    "negative->positive": 47
+   },
+   "weighted_unratable_share": 0.1789
+  }
+ },
+ "E_pairs": {
+  "TRSAv1": {
+   "pairs": 30,
+   "humans_same_label": 29
+  },
+  "winvoker": {
+   "pairs": 17,
+   "humans_same_label": 14
+  }
+ },
+ "H_trsav1_neutral_labeled_gold": {
+  "neutral": 22,
+  "negative": 19,
+  "positive": 15,
+  "offtopic": 3,
+  "ambiguous": 1
+ }
+}

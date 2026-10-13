@@ -1,0 +1,13 @@
+# raw data and working files are never committed (see DATA_SHARING.md)
+data/*
+!data/README.md
+TRSAv1-Dataset/
+label-errors/
+out/
+share/
+faz4_in/
+faz4_llm/
+faz5_in/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/

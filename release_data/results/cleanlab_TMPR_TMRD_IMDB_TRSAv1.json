@@ -1,0 +1,33 @@
+{
+ "TMPR": {
+  "rows_audited": 5600,
+  "flagged": 539,
+  "flagged_pct": 9.625,
+  "oof_acc": 0.8146428571428571,
+  "seconds": 12.7
+ },
+ "TMRD": {
+  "rows_audited": 10592,
+  "flagged": 263,
+  "flagged_pct": 2.4830060422960725,
+  "oof_acc": 0.9066276435045317,
+  "seconds": 14.2
+ },
+ "IMDB": {
+  "rows_audited": 24798,
+  "flagged": 552,
+  "flagged_pct": 2.22598596661021,
+  "oof_acc": 0.9101137188482942,
+  "seconds": 189.0,
+  "northcutt_confirmed_errors": 725,
+  "recall_of_northcutt_errors": 0.4193103448275862,
+  "precision_among_reviewed": 0.7360774818401937
+ },
+ "TRSAv1": {
+  "rows_audited": 138854,
+  "flagged": 17605,
+  "flagged_pct": 12.678784910769586,
+  "oof_acc": 0.7962752243363533,
+  "seconds": 542.4
+ }
+}
