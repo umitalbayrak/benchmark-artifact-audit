@@ -16,6 +16,7 @@
     "unratable": 3
    },
    "A_n_rated": 97,
+   "A_n_drawn": 100,
    "A_error_rate": 0.567,
    "R_counts": {
     "correct": 101,
@@ -23,12 +24,15 @@
     "unratable": 7
    },
    "R_n_rated": 113,
+   "R_n_drawn": 120,
    "R_error_rate": 0.1062,
-   "weighted_error_rate": 0.1646,
+   "weighted_error_rate": 0.1661,
    "ci95": [
-    0.1158,
-    0.2175
+    0.1177,
+    0.2197
    ],
+   "weighted_error_rate_v1_naive": 0.1646,
+   "sensitivity_agreed_only": 0.1247,
    "error_types_AR": {
     "neutral->positive": 29,
     "neutral->negative": 14,
@@ -46,6 +50,7 @@
     "unratable": 17
    },
    "A_n_rated": 83,
+   "A_n_drawn": 100,
    "A_error_rate": 0.5542,
    "R_counts": {
     "correct": 106,
@@ -53,12 +58,15 @@
     "error": 4
    },
    "R_n_rated": 110,
+   "R_n_drawn": 120,
    "R_error_rate": 0.0364,
-   "weighted_error_rate": 0.0462,
+   "weighted_error_rate": 0.0453,
    "ci95": [
-    0.0179,
-    0.0831
+    0.017,
+    0.0834
    ],
+   "weighted_error_rate_v1_naive": 0.0463,
+   "sensitivity_agreed_only": 0.0419,
    "error_types_AR": {
     "negative->positive": 22,
     "negative->neutral": 11,
@@ -75,6 +83,7 @@
     "unratable": 11
    },
    "A_n_rated": 47,
+   "A_n_drawn": 80,
    "A_error_rate": 0.5957,
    "R_counts": {
     "correct": 107,
@@ -82,12 +91,15 @@
     "neutral_in_binary": 4
    },
    "R_n_rated": 107,
+   "R_n_drawn": 120,
    "R_error_rate": 0.0,
-   "weighted_error_rate": 0.0148,
+   "weighted_error_rate": 0.0098,
    "ci95": [
-    0.0111,
-    0.0185
+    0.007,
+    0.0129
    ],
+   "weighted_error_rate_v1_naive": 0.0148,
+   "sensitivity_agreed_only": 0.0134,
    "error_types_AR": {
     "negative->positive": 20,
     "positive->negative": 8
@@ -102,6 +114,7 @@
     "unratable": 3
    },
    "A_n_rated": 69,
+   "A_n_drawn": 80,
    "A_error_rate": 0.4348,
    "R_counts": {
     "correct": 81,
@@ -110,12 +123,15 @@
     "unratable": 9
    },
    "R_n_rated": 98,
+   "R_n_drawn": 120,
    "R_error_rate": 0.1735,
-   "weighted_error_rate": 0.1986,
+   "weighted_error_rate": 0.1999,
    "ci95": [
-    0.1341,
-    0.2688
+    0.135,
+    0.2714
    ],
+   "weighted_error_rate_v1_naive": 0.1987,
+   "sensitivity_agreed_only": 0.1723,
    "error_types_AR": {
     "negative->positive": 47
    },

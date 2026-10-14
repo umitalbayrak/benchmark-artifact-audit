@@ -34,7 +34,7 @@ CC BY 4.0 covers only project-generated content (gold annotations, audit measure
 
 ## 4. Human annotation
 
-Two annotators labelled each item blind to the original label and to each other (5 classes: positive / negative / neutral / ambiguous / off-topic); disagreements were adjudicated. The two annotators were unpaid volunteers (colleagues of the author, not crowdworkers) who agreed verbally to take part and later confirmed this in a written statement of voluntary participation kept by the author. They labelled publicly available benchmark texts; they were not research subjects, and no personal data about them was collected or is released. {{ETHICS_APPROVAL_OR_EXEMPTION}}
+Two annotators labelled each item blind to the original label and to each other (5 classes: positive / negative / neutral / ambiguous / off-topic); disagreements were adjudicated. The two annotators were unpaid volunteers (native Turkish-speaking academic staff members, not part of the research team and not crowdworkers) who agreed verbally to take part and later confirmed this in a written statement of voluntary participation kept by the author. They labelled publicly available benchmark texts; they were not research subjects, and no personal data about them was collected or is released. {{ETHICS_APPROVAL_OR_EXEMPTION}}
 
 ## 5. Reproducibility levels
 

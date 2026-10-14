@@ -37,19 +37,29 @@ pop = json.load(open("out/annotation_population.json"))
 rng = np.random.default_rng(0)
 prev = {}
 for d, P in pop.items():
-    row, s = {}, {}
+    row, cnt = {}, {}
     for st in ("A", "R"):
         g = k[(k.dataset == d) & (k.stratum == st)]
         row[f"{st}_counts"] = {a: int(b) for a, b in g.verdict.value_counts().items()}
         rated = g[g.verdict.isin(["error", "correct"])]
-        s[st] = rated.verdict.eq("error").to_numpy()
-        row[f"{st}_n_rated"] = len(rated)
-        row[f"{st}_error_rate"] = round(float(s[st].mean()), 4)
+        row[f"{st}_n_rated"] = len(rated); row[f"{st}_n_drawn"] = len(g)
+        row[f"{st}_error_rate"] = round(float(rated.verdict.eq("error").mean()), 4)
+        cnt[st] = g.verdict.to_numpy()
     NA, NR = P["N_A"], P["N_R"]
-    w = lambda a, r: (NA * a.mean() + NR * r.mean()) / (NA + NR)
-    boots = [w(rng.choice(s["A"], len(s["A"])), rng.choice(s["R"], len(s["R"]))) for _ in range(5000)]
-    row["weighted_error_rate"] = round(float(w(s["A"], s["R"])), 4)
+    # Oran tahmincisi (değerlendirilebilir popülasyondaki hata oranı): her tabakanın tasarım ağırlığı N/n_drawn;
+    # pay = tahmini hata sayısı, payda = tahmini değerlendirilebilir madde sayısı. Bootstrap tam tabakalar üzerinde.
+    def ratio(a, r):
+        err = NA * (a == "error").mean() + NR * (r == "error").mean()
+        rat = NA * np.isin(a, ["error", "correct"]).mean() + NR * np.isin(r, ["error", "correct"]).mean()
+        return err / rat
+    boots = [ratio(rng.choice(cnt["A"], len(cnt["A"])), rng.choice(cnt["R"], len(cnt["R"]))) for _ in range(5000)]
+    row["weighted_error_rate"] = round(float(ratio(cnt["A"], cnt["R"])), 4)
     row["ci95"] = [round(float(np.percentile(boots, q)), 4) for q in (2.5, 97.5)]
+    # Önceki (hatalı) tahminci, karşılaştırma için: tabaka hata oranları N_A, N_R ile ağırlıklandırılmış
+    row["weighted_error_rate_v1_naive"] = round(float((NA * row["A_error_rate"] + NR * row["R_error_rate"]) / (NA + NR)), 4)
+    # Duyarlılık: yalnız iki etiketleyicinin baştan uyuştuğu maddeler (uzlaşma gerektirmeyenler)
+    ag = {st: k[(k.dataset == d) & (k.stratum == st) & k.agree].verdict.to_numpy() for st in ("A", "R")}
+    row["sensitivity_agreed_only"] = round(float(ratio(ag["A"], ag["R"])), 4)
     # Hataların türü (rastgele tabaka): hangi orijinal etiket hangi altın etikete
     r = k[(k.dataset == d) & (k.stratum.isin(["A", "R"])) & (k.verdict == "error")]
     row["error_types_AR"] = (r.orig_label + "->" + r.gold_final).value_counts().to_dict()

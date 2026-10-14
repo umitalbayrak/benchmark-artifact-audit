@@ -79,7 +79,8 @@ for d in ["TMPR", "TMRD", "TRSAv1", "winvoker"]:
     g = g.drop_duplicates(["item_id"])
     P = pop[d]
     nA, nR = (g.stratum == "A").sum(), (g.stratum == "R").sum()
-    g = g.assign(weight=np.where(g.stratum == "A", P["N_A"] / nA, P["N_R"] / nR))
+    # Tasarım (içerilme) ağırlığı: N / çekilen örnek sayısı (değerlendirilemez maddeler çıkarılmadan önceki n)
+    g = g.assign(weight=np.where(g.stratum == "A", P["N_A"] / P["n_A"], P["N_R"] / P["n_R"]))
     g[["text", "gold_final", "orig_label", "stratum", "weight"]].rename(columns={"gold_final": "label"}) \
         .to_parquet(f"out/splits/gold_{d}.parquet", index=False)
     summary[f"gold_{d}"] = {"n": len(g), "A": int(nA), "R": int(nR)}

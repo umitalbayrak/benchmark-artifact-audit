@@ -52,9 +52,9 @@ To rerun everything from raw data (including training), follow `REPRODUCE.md`.
 | Dataset | Model | Dirty | Clean | Gold |
 | --- | --- | --- | --- | --- |
 | winvoker | BERTurk | 0.944 | 0.944 | 0.647 |
-| TMPR | BERTurk / XLM-R / TF-IDF | 0.851 / 0.814 / 0.824 | same | 0.829 / 0.839 / 0.744 |
-| TRSAv1 | BERTurk | 0.835 | 0.837 | 0.842 |
-| TMRD | BERTurk | 0.939 | 0.939 | 0.975 |
+| TMPR | BERTurk / XLM-R / TF-IDF | 0.851 / 0.814 / 0.824 | same | 0.828 / 0.837 / 0.742 |
+| TRSAv1 | BERTurk | 0.835 | 0.837 | 0.841 |
+| TMRD | BERTurk | 0.939 | 0.939 | 0.976 |
 
 Leakage cleaning never changed a model ranking (Kendall τ = 1 on all four datasets), while one-sided label corruption in TMPR reversed it (dirty vs gold τ = −0.33). Full tables are in `release_data/results/`.
 
