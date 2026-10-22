@@ -7,14 +7,13 @@ authors:
     affiliation: "Department of Computer Technologies, Ilgin Vocational School, Selcuk University, Konya 42600, Turkey"
     orcid: "https://orcid.org/0000-0002-7942-7191"
 version: "1.0.0"
-date-released: "{{YYYY-MM-DD}}"
+date-released: "2026-10-22"
 license: MIT
-doi: "{{ZENODO_DOI}}"
 preferred-citation:
   type: article
   title: "Are We Benchmarking Models or Dataset Artifacts? A Reproducible Audit Framework for Sentiment Analysis Benchmarks — Evidence from Turkish Low-Resource Benchmarks with English External Validation"
   authors:
     - family-names: "Albayrak"
       given-names: "Ümit"
-  journal: "{{JOURNAL}}"
-  year: "{{YEAR}}"
+  year: 2026
+  notes: "Manuscript under review."

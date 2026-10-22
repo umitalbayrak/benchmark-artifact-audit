@@ -1,6 +1,6 @@
 # Data sharing statement
 
-This file states, item by item, what this repository shares and why. **Status: revised after the licence check (phase 6.2). Only the ethics wording in §4 remains to be confirmed.**
+This file states, item by item, what this repository shares and why. **Status: final.**
 
 ## 1. Raw benchmark texts: not shared
 
@@ -34,7 +34,7 @@ CC BY 4.0 covers only project-generated content (gold annotations, audit measure
 
 ## 4. Human annotation
 
-Two annotators labelled each item blind to the original label and to each other (5 classes: positive / negative / neutral / ambiguous / off-topic); disagreements were adjudicated. The two annotators were unpaid volunteers (native Turkish-speaking academic staff members, not part of the research team and not crowdworkers) who agreed verbally to take part and later confirmed this in a written statement of voluntary participation kept by the author. They labelled publicly available benchmark texts; they were not research subjects, and no personal data about them was collected or is released. {{ETHICS_APPROVAL_OR_EXEMPTION}}
+Two annotators labelled each item blind to the original label and to each other (5 classes: positive / negative / neutral / ambiguous / off-topic); disagreements were adjudicated. The two annotators were unpaid volunteers (native Turkish-speaking academic staff members, not part of the research team and not crowdworkers) who agreed verbally to take part and later confirmed this in a written statement of voluntary participation kept by the author. They labelled publicly available benchmark texts; they were not research subjects, and no personal data about them was collected or is released. Ethics: the study was reviewed by the Scientific Ethics Evaluation Committee of the Faculty of Science, Selcuk University, which decided unanimously that it complies with scientific ethical rules (meeting 2026/9, decision no. 9, 21 October 2026). The review was requested after annotation had been completed and covered the complete study.
 
 ## 5. Reproducibility levels
 
